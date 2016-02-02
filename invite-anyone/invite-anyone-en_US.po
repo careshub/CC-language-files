@@ -8,10 +8,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-07-30 16:30-0600\n"
+"PO-Revision-Date: 2015-08-06 09:26-0500\n"
 "Last-Translator: \n"
 "Language-Team: ENGLISH <LL@li.org>\n"
-"X-Generator: Poedit 1.6.7\n"
+"X-Generator: Poedit 1.8.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: en_US\n"
 
@@ -60,7 +60,7 @@ msgstr ""
 
 #: admin/admin-panel.php:169
 msgid "Limit group invitations"
-msgstr "Limit hub invitations"
+msgstr "Limit Hub invitations"
 
 #: admin/admin-panel.php:171
 msgid "Limit per-user invitations"
@@ -92,7 +92,7 @@ msgstr ""
 
 #: admin/admin-panel.php:210
 msgid "Allow users to send group invitations along with email invitations"
-msgstr "Allow users to send hub invitations along with email invitations"
+msgstr "Allow users to send Hub invitations along with email invitations"
 
 #: admin/admin-panel.php:212
 msgid ""
@@ -102,7 +102,7 @@ msgstr ""
 
 #: admin/admin-panel.php:214
 msgid "Enable the Send Invites step during group creation"
-msgstr "Enable the Send Invites step during hub creation"
+msgstr "Enable the Send Invites step during Hub creation"
 
 #: admin/admin-panel.php:226
 msgid "Control the default behavior of Invite Anyone."
@@ -197,7 +197,7 @@ msgstr ""
 
 #: admin/admin-panel.php:370
 msgid "<strong>Site admins</strong> can send group invitations to: "
-msgstr "<strong>Site admins</strong> can send hub invitations to: "
+msgstr "<strong>Site admins</strong> can send Hub invitations to: "
 
 #: admin/admin-panel.php:372 admin/admin-panel.php:380
 #: admin/admin-panel.php:388 admin/admin-panel.php:396
@@ -216,15 +216,15 @@ msgstr ""
 
 #: admin/admin-panel.php:378
 msgid "<strong>Group admins</strong> can send group invitations to: "
-msgstr "<strong>Hub admins</strong> can send hub invitations to: "
+msgstr "<strong>Hub admins</strong> can send Hub invitations to: "
 
 #: admin/admin-panel.php:386
 msgid "<strong>Group mods</strong> can send group invitations to: "
-msgstr "<strong>Hub mods</strong> can send hub invitations to: "
+msgstr "<strong>Hub mods</strong> can send Hub invitations to: "
 
 #: admin/admin-panel.php:394
 msgid "<strong>Group members</strong> can send group invitations to: "
-msgstr "<strong>Hub members</strong> can send hub invitations to: "
+msgstr "<strong>Hub members</strong> can send Hub invitations to: "
 
 #: admin/admin-panel.php:415
 msgid ""
@@ -683,7 +683,7 @@ msgid ""
 "(optional) Select some groups. Invitees will receive invitations to these "
 "groups when they join the site."
 msgstr ""
-"(optional) Select some hubs. Invitees will receive invitations to these hubs "
+"(optional) Select some Hubs. Invitees will receive invitations to these Hubs "
 "when they join the site."
 
 #: by-email/by-email.php:740
@@ -835,15 +835,15 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"%1$s has invited you to the hub: \"%2$s\".\n"
+"%1$s has invited you to the Hub: \"%2$s\".\n"
 "\n"
-"To view your hub invites visit: %3$s\n"
+"To view your Hub invites visit: %3$s\n"
 "\n"
-"To view the hub visit: %4$s\n"
+"To view the Hub visit: %4$s\n"
 "\n"
-"To view %5$s's profile visit: %6$s\n"
+"To view %5$s’s profile visit: %6$s\n"
 "\n"
-"---------------------\n"
+"——————————\n"
 
 #: group-invites/templates/invite-anyone.php:27
 #: group-invites/templates/invite-anyone.php:115
@@ -862,7 +862,7 @@ msgstr ""
 #: group-invites/templates/invite-anyone.php:107
 msgid ""
 "Want to invite someone to the group who is not yet a member of the site?"
-msgstr "Want to invite someone to the hub who is not yet a member of the site?"
+msgstr "Want to invite someone to the Hub who is not yet a member of the site?"
 
 #: group-invites/templates/invite-anyone.php:107
 msgid "Send invitations by email."
@@ -918,8 +918,8 @@ msgid ""
 "Allows group admins to invite any member of their BuddyPress community to a "
 "group or to the site"
 msgstr ""
-"Allows hub admins to invite any member of their BuddyPress community to a "
-"hub or to the site"
+"Allows Hub admins to invite any member of their BuddyPress community to a "
+"Hub or to the site"
 
 #. Author of the plugin/theme
 msgid "Boone Gorges"
