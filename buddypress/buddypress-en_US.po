@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: BuddyPress 2.1-alpha\n"
 "Report-Msgid-Bugs-To: https://buddypress.trac.wordpress.org\n"
 "POT-Creation-Date: 2016-02-02 11:27-0600\n"
-"PO-Revision-Date: 2016-02-02 11:33-0600\n"
+"PO-Revision-Date: 2016-02-02 11:54-0600\n"
 "Last-Translator: \n"
 "Language-Team: ENGLISH <jjj@buddypress.org>\n"
 "Language: en_US\n"
@@ -97,11 +97,11 @@ msgstr ""
 #. | Friends Activity"
 #: bp-activity/bp-activity-actions.php:586
 msgid "%1$s | %2$s | Friends Activity"
-msgstr ""
+msgstr "%1$s | %2$s | Connection Activity"
 
 #: bp-activity/bp-activity-actions.php:589
 msgid "Activity feed for %s's friends."
-msgstr ""
+msgstr "Activity feed for %s’s connections."
 
 #. translators: Member groups activity RSS title - "[Site Name] | [User Display
 #. Name] | Groups Activity"
@@ -1228,7 +1228,7 @@ msgstr ""
 
 #: bp-core/admin/bp-core-admin-components.php:382
 msgid "Friend Connections"
-msgstr ""
+msgstr "Connections"
 
 #: bp-core/admin/bp-core-admin-components.php:383
 msgid ""
@@ -1589,7 +1589,7 @@ msgstr ""
 
 #: bp-core/admin/bp-core-admin-tools.php:124
 msgid "Count friends for each user"
-msgstr ""
+msgstr "Count connections for each user"
 
 #: bp-core/admin/bp-core-admin-tools.php:134
 msgid "Count groups for each user"
@@ -1601,7 +1601,7 @@ msgstr ""
 
 #: bp-core/admin/bp-core-admin-tools.php:175
 msgid "Counting the number of friends for each user&hellip; %s"
-msgstr ""
+msgstr "Counting the number of connections for each user&hellip; %s"
 
 #: bp-core/admin/bp-core-admin-tools.php:176
 #: bp-core/admin/bp-core-admin-tools.php:234
@@ -3046,70 +3046,70 @@ msgstr ""
 
 #: bp-friends/bp-friends-actions.php:37
 msgid "Friendship could not be requested."
-msgstr ""
+msgstr "Connection could not be requested."
 
 #: bp-friends/bp-friends-actions.php:39
 msgid "Friendship requested"
-msgstr ""
+msgstr "Connection requested"
 
 #: bp-friends/bp-friends-actions.php:43
 msgid "You are already friends with this user"
-msgstr ""
+msgstr "You are already connected to this user"
 
 #: bp-friends/bp-friends-actions.php:45
 msgid "You already have a pending friendship request with this user"
-msgstr ""
+msgstr "You already have a pending connection request with this user"
 
 #: bp-friends/bp-friends-actions.php:75
 #: bp-templates/bp-legacy/buddypress-functions.php:1372
 msgid "Friendship could not be canceled."
-msgstr ""
+msgstr "Connection could not be canceled."
 
 #: bp-friends/bp-friends-actions.php:77
 msgid "Friendship canceled"
-msgstr ""
+msgstr "Connection canceled"
 
 #: bp-friends/bp-friends-actions.php:81
 msgid "You are not yet friends with this user"
-msgstr ""
+msgstr "You are not yet connected to this user"
 
 #: bp-friends/bp-friends-actions.php:83
 msgid "You have a pending friendship request with this user"
-msgstr ""
+msgstr "You have a pending connection request with this user"
 
 #: bp-friends/bp-friends-activity.php:97
 msgid "Friendships accepted"
-msgstr ""
+msgstr "Connections accepted"
 
 #: bp-friends/bp-friends-activity.php:99 bp-friends/bp-friends-activity.php:108
 #: bp-friends/bp-friends-loader.php:233
 msgid "Friendships"
-msgstr ""
+msgstr "Connections"
 
 #: bp-friends/bp-friends-activity.php:106
 msgid "New friendships"
-msgstr ""
+msgstr "New connections"
 
 #: bp-friends/bp-friends-activity.php:113
 msgid "New friendship created"
-msgstr ""
+msgstr "New connection created"
 
 #: bp-friends/bp-friends-activity.php:137
 #: bp-friends/bp-friends-activity.php:171
 msgid "%1$s and %2$s are now friends"
-msgstr ""
+msgstr "%1$s and %2$s are now connected"
 
 #: bp-friends/bp-friends-loader.php:96
 msgid "Search Friends..."
-msgstr ""
+msgstr "Search Connections…"
 
 #: bp-friends/bp-friends-loader.php:135
 msgid "Friends <span class=\"%s\">%s</span>"
-msgstr ""
+msgstr "Connections <span class=“%s”>%s</span>"
 
 #: bp-friends/bp-friends-notifications.php:43
 msgid "New friendship request from %s"
-msgstr ""
+msgstr "New connection request from %s"
 
 #: bp-friends/bp-friends-notifications.php:44
 msgid ""
@@ -3121,11 +3121,18 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
+"%1$s wants to add you as a connection.\n"
+"\n"
+"To view all of your pending connection requests: %2$s\n"
+"\n"
+"To view %3$s’s profile: %4$s\n"
+"\n"
+"——————————\n"
 
 #: bp-friends/bp-friends-notifications.php:133
 #: bp-friends/bp-friends-notifications.php:223
 msgid "%s accepted your friendship request"
-msgstr ""
+msgstr "%s accepted your connection request"
 
 #: bp-friends/bp-friends-notifications.php:134
 msgid ""
@@ -3135,50 +3142,55 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
+"%1$s accepted your connection request.\n"
+"\n"
+"To view %2$s’s profile: %3$s\n"
+"\n"
+"——————————\n"
 
 #: bp-friends/bp-friends-notifications.php:220
 msgid "%d friends accepted your friendship requests"
-msgstr ""
+msgstr "%d connections accepted your connection requests"
 
 #: bp-friends/bp-friends-notifications.php:236
 msgid "You have %d pending friendship requests"
-msgstr ""
+msgstr "You have %d pending connection requests"
 
 #: bp-friends/bp-friends-notifications.php:239
 msgid "You have a friendship request from %s"
-msgstr ""
+msgstr "You have a connection request from %s"
 
 #: bp-friends/bp-friends-screens.php:47
 msgid "Friendship accepted"
-msgstr ""
+msgstr "Connection accepted"
 
 #: bp-friends/bp-friends-screens.php:49
 msgid "Friendship could not be accepted"
-msgstr ""
+msgstr "Connection could not be accepted"
 
 #: bp-friends/bp-friends-screens.php:58
 msgid "Friendship rejected"
-msgstr ""
+msgstr "Connection rejected"
 
 #: bp-friends/bp-friends-screens.php:60
 msgid "Friendship could not be rejected"
-msgstr ""
+msgstr "Connection could not be rejected"
 
 #: bp-friends/bp-friends-screens.php:69
 msgid "Friendship request withdrawn"
-msgstr ""
+msgstr "Connection request withdrawn"
 
 #: bp-friends/bp-friends-screens.php:71
 msgid "Friendship request could not be withdrawn"
-msgstr ""
+msgstr "Connection request could not be withdrawn"
 
 #: bp-friends/bp-friends-template.php:81
 msgid "My Friends"
-msgstr ""
+msgstr "My Connections"
 
 #: bp-friends/bp-friends-template.php:81 bp-friends/bp-friends-widgets.php:73
 msgid "%s's Friends"
-msgstr ""
+msgstr "%s’s Connections"
 
 #: bp-friends/bp-friends-template.php:81
 msgid "See All"
@@ -3186,11 +3198,11 @@ msgstr ""
 
 #: bp-friends/bp-friends-template.php:101
 msgid "You haven't added any friend connections yet."
-msgstr ""
+msgstr "You haven’t added any connections yet."
 
 #: bp-friends/bp-friends-template.php:101
 msgid "%s hasn't created any friend connections yet."
-msgstr ""
+msgstr "%s hasn’t created any connections yet."
 
 #: bp-friends/bp-friends-template.php:171
 msgid "There aren't enough site members to show a random sample just yet."
@@ -3198,53 +3210,55 @@ msgstr ""
 
 #: bp-friends/bp-friends-template.php:188
 msgid "Filter Friends"
-msgstr ""
+msgstr "Filter Connections"
 
 #: bp-friends/bp-friends-template.php:240
 msgid "%d friend"
-msgstr ""
+msgstr "%d connection"
 
 #: bp-friends/bp-friends-template.php:244
 msgid "%d friends"
-msgstr ""
+msgstr "%d connections"
 
 #: bp-friends/bp-friends-template.php:354
 #: bp-templates/bp-legacy/buddypress-functions.php:1384
 msgid "Cancel Friendship Request"
-msgstr ""
+msgstr "Cancel Connection Request"
 
 #: bp-friends/bp-friends-template.php:355
 msgid "Cancel Friendship Requested"
-msgstr ""
+msgstr "Cancel Connection Requested"
 
 #: bp-friends/bp-friends-template.php:371
 #: bp-friends/bp-friends-template.php:372
 msgid "Friendship Requested"
-msgstr ""
+msgstr "Connection Requested"
 
 #: bp-friends/bp-friends-template.php:388
 #: bp-friends/bp-friends-template.php:389
 msgid "Cancel Friendship"
-msgstr ""
+msgstr "Cancel Connection"
 
 #: bp-friends/bp-friends-template.php:405
 #: bp-friends/bp-friends-template.php:406
 #: bp-templates/bp-legacy/buddypress-functions.php:1374
 #: bp-templates/bp-legacy/buddypress-functions.php:1392
 msgid "Add Friend"
-msgstr ""
+msgstr "Add Connection"
 
 #: bp-friends/bp-friends-template.php:674
 msgid "%s friend"
 msgid_plural "%s friends"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s connection"
+msgstr[1] "%s connections"
 
 #: bp-friends/bp-friends-widgets.php:48
 msgid ""
 "A dynamic list of recently active, popular, and newest Friends of the "
 "displayed member.  Widget is only shown when viewing a member profile."
 msgstr ""
+"A dynamic list of recently active, popular, and newest Connections of the "
+"displayed member.  Widget is only shown when viewing a member profile."
 
 #: bp-friends/bp-friends-widgets.php:109 bp-friends/bp-friends-widgets.php:198
 #: bp-groups/bp-groups-widgets.php:102 bp-groups/bp-groups-widgets.php:184
@@ -3270,11 +3284,11 @@ msgstr ""
 
 #: bp-friends/bp-friends-widgets.php:192
 msgid "Max friends to show:"
-msgstr ""
+msgstr "Max connections to show:"
 
 #: bp-friends/bp-friends-widgets.php:195
 msgid "Default friends to show:"
-msgstr ""
+msgstr "Default connections to show:"
 
 #: bp-friends/bp-friends-widgets.php:262 bp-members/bp-members-widgets.php:617
 msgid "There were no members found, please try another filter."
@@ -3977,7 +3991,7 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"One of your friends %1$s has invited you to the Hub: \"%2$s\".\n"
+"One of your connections %1$s has invited you to the Hub: \"%2$s\".\n"
 "\n"
 "To view your Hub invites visit: %3$s\n"
 "\n"
@@ -5060,13 +5074,13 @@ msgstr[1] ""
 
 #: bp-members/bp-members-template.php:680
 msgid "Viewing 1 member with friends"
-msgstr ""
+msgstr "Viewing 1 member with connections"
 
 #: bp-members/bp-members-template.php:682
 msgid "Viewing %1$s - %2$s of %3$s member with friends"
 msgid_plural "Viewing %1$s - %2$s of %3$s members with friends"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Viewing %1$s - %2$s of %3$s member with connections"
+msgstr[1] "Viewing %1$s - %2$s of %3$s members with connections"
 
 #: bp-members/bp-members-template.php:686
 msgid "Viewing 1 online member"
@@ -5748,12 +5762,12 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:72
 msgid "The activity of my friends only."
-msgstr ""
+msgstr "The activity of my connections only."
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:72
 #: bp-templates/bp-legacy/buddypress/members/index.php:56
 msgid "My Friends %s"
-msgstr ""
+msgstr "My Connections %s"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:91
 msgid "The activity of groups I am a member of."
@@ -6177,7 +6191,7 @@ msgstr "The Cover Image will be used to customize the header of your hub."
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:316
 msgid "Select people to invite from your friends list."
-msgstr ""
+msgstr "Select people to invite from your connections list."
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:334
 #: bp-templates/bp-legacy/buddypress/groups/single/invites-loop.php:74
@@ -6190,8 +6204,8 @@ msgid ""
 "Once you have built up friend connections you will be able to invite others "
 "to your group."
 msgstr ""
-"Once you have built up friend connections you will be able to invite others "
-"to your Hub."
+"Once you have built up connections you will be able to invite others to your "
+"Hub."
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:396
 msgid "Back to Previous Step"
@@ -6358,7 +6372,7 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/groups/single/invites-loop.php:110
 msgid "Select friends to invite."
-msgstr ""
+msgstr "Select connections to invite."
 
 #: bp-templates/bp-legacy/buddypress/groups/single/members.php:131
 msgid "No members were found."
@@ -6398,19 +6412,19 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:43
 msgid "Group invitations can only be extended to friends."
-msgstr "Hub invitations can only be extended to friends."
+msgstr "Hub invitations can only be extended to connections."
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:44
 msgid ""
 "Once you've made some friendships, you'll be able to invite those members to "
 "this group."
 msgstr ""
-"Once you’ve made some friendships, you’ll be able to invite those members to "
+"Once you’ve made some connections, you’ll be able to invite those members to "
 "this Hub."
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:52
 msgid "All of your friends already belong to this group."
-msgstr "All of your friends already belong to this Hub."
+msgstr "All of your connections already belong to this Hub."
 
 #: bp-templates/bp-legacy/buddypress/members/activate.php:41
 msgid ""
@@ -6526,7 +6540,7 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/single/friends/requests.php:102
 msgid "You have no pending friendship requests."
-msgstr ""
+msgstr "You have no pending connection requests."
 
 #: bp-templates/bp-legacy/buddypress/members/single/groups/invites.php:66
 msgid "You have no outstanding group invites."
@@ -6534,7 +6548,7 @@ msgstr "You have no outstanding Hub invites."
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:21
 msgid "Send To (Username or Friend's Name)"
-msgstr ""
+msgstr "Send To (Username or Connection’s Name)"
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:30
 msgid "This is a notice to all users."
@@ -6822,11 +6836,11 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress-functions.php:1382
 msgid " Friendship could not be requested."
-msgstr ""
+msgstr "Connection could not be requested."
 
 #: bp-templates/bp-legacy/buddypress-functions.php:1394
 msgid "Friendship request could not be cancelled."
-msgstr ""
+msgstr "Connection request could not be canceled."
 
 #: bp-templates/bp-legacy/buddypress-functions.php:1399
 msgid "Request Pending"
@@ -7358,7 +7372,7 @@ msgstr ""
 #: bp-activity/bp-activity-loader.php:206
 msgctxt "Profile activity screen sub nav"
 msgid "Friends"
-msgstr ""
+msgstr "Connections"
 
 #: bp-activity/bp-activity-loader.php:219
 msgctxt "Profile activity screen sub nav"
@@ -7393,7 +7407,7 @@ msgstr ""
 #: bp-activity/bp-activity-loader.php:309
 msgctxt "My Account Activity sub nav"
 msgid "Friends"
-msgstr ""
+msgstr "Connections"
 
 #: bp-activity/bp-activity-loader.php:319
 msgctxt "My Account Activity sub nav"
@@ -7433,7 +7447,7 @@ msgstr ""
 #: bp-friends/bp-friends-widgets.php:51
 msgctxt "widget name"
 msgid "(BuddyPress) Friends"
-msgstr ""
+msgstr "(BuddyPress) Connections"
 
 #: bp-groups/bp-groups-widgets.php:26
 msgctxt "widget name"
@@ -7666,12 +7680,12 @@ msgstr ""
 #: bp-friends/bp-friends-loader.php:27
 msgctxt "Friends screen page <title>"
 msgid "Friend Connections"
-msgstr ""
+msgstr "Connections"
 
 #: bp-friends/bp-friends-loader.php:145
 msgctxt "Friends screen sub nav"
 msgid "Friendships"
-msgstr ""
+msgstr "Connections"
 
 #: bp-friends/bp-friends-loader.php:155
 msgctxt "Friends screen sub nav"
@@ -7681,12 +7695,12 @@ msgstr ""
 #: bp-friends/bp-friends-loader.php:188
 msgctxt "My Account Friends menu"
 msgid "Friends <span class=\"count\">%s</span>"
-msgstr ""
+msgstr "Connections <span class=“count”>%s</span>"
 
 #: bp-friends/bp-friends-loader.php:191
 msgctxt "My Account Friends menu"
 msgid "Friends"
-msgstr ""
+msgstr "Connections"
 
 #: bp-friends/bp-friends-loader.php:189
 msgctxt "My Account Friends menu sub nav"
@@ -7701,22 +7715,22 @@ msgstr ""
 #: bp-friends/bp-friends-loader.php:207
 msgctxt "My Account Friends menu sub nav"
 msgid "Friendships"
-msgstr ""
+msgstr "Connections"
 
 #: bp-friends/bp-friends-screens.php:108
 msgctxt "Friend settings on notification settings page"
 msgid "Friends"
-msgstr ""
+msgstr "Connections"
 
 #: bp-friends/bp-friends-screens.php:117
 msgctxt "Friend settings on notification settings page"
 msgid "A member sends you a friendship request"
-msgstr ""
+msgstr "A member sends you a connection request"
 
 #: bp-friends/bp-friends-screens.php:123
 msgctxt "Friend settings on notification settings page"
 msgid "A member accepts your friendship request"
-msgstr ""
+msgstr "A member accepts your connection request"
 
 #: bp-groups/bp-groups-admin.php:33
 #, fuzzy
@@ -8292,7 +8306,7 @@ msgstr "All Members"
 #: bp-xprofile/bp-xprofile-loader.php:142
 msgctxt "Visibility level setting"
 msgid "My Friends"
-msgstr ""
+msgstr "My Connections"
 
 #: bp-xprofile/bp-xprofile-loader.php:196
 msgctxt "Profile header menu"
